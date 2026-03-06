@@ -1,0 +1,16 @@
+TRADING JOURNAL - DAY 1
+=======================
+
+Trade #1 (Practice/Demo)
+- Date: [Today's date]
+- Asset: SPY
+- Entry Price: $400
+- Exit Price: $420
+- Return: 5.00%
+- Why I took it: Testing the trading system
+- Result: WIN
+- Lessons: It's important to have an exit plan before entering. Risk management > perfect entry signals.
+
+Current Account: $10,000 (MetaTrader 5 demo)
+Trades Completed: 0 (demo)
+Win Rate: 0% (no trade yet) 
