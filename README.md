@@ -1,40 +1,41 @@
 # 30-Day Trading + CFD Challenge
 
-**Goal:** Build a funded trading system + master CFD & aerodynamic design in 30 days
+## Progress: DAY 2 ✅
 
-## Current Progress: DAY 1 ✅
+### Scripts Created
+- `hello_trading.py` - Calculate percentage returns
+- `trading_signals.py` - If/else logic for BUY/SELL/HOLD signals
+- `calculate_returns.py` - Loop through trades, calculate win rate
+- `download_data.py` - Download real SPY data from Yahoo Finance
+- `analyze_data.py` - Pandas analysis: moving averages, daily returns
 
-### What I've Built
-- ✅ Python environment set up (Anaconda 3.11)
-- ✅ First trading program: `hello_trading.py` (calculates percentage returns)
-- ✅ GitHub portfolio initialized
-- ✅ MetaTrader 5 demo account with $10,000
-- ✅ Trading journal started
+### What I Learned (Day 2)
+- **If/else statements** - Decision-making in code
+- **Loops** - Process multiple items efficiently
+- **yfinance library** - Download real market data
+- **Pandas library** - Organize and analyze data
+- **Moving averages** - Identify trends in price
+- **Daily returns** - Calculate day-to-day price changes
 
-### Key Learning (Day 1)
-- Great traders focus on **risk management**, not perfect entries
-- Win rate can be **40-55% and still be highly profitable**
-- **Psychology** controls whether you follow your trading plan
-- Python will be my primary tool for backtesting and CFD analysis
+### Key Insight
+"Great traders understand their data before making decisions. I'm building tools to analyze market patterns."
 
-### Code Files
-- `hello_trading.py` - Calculates percentage return from entry/exit prices
-- `trading_journal.txt` - Log of all trades and lessons learned
+### Code Quality
+- All scripts are tested and working
+- Each function has documentation
+- Comments explain the logic
 
-### Statistics
-- Python Scripts Written: 1
-- Functions Created: 1 (`calculate_return()`)
-- Trading Setups Tested: 0 (demo)
-- Current Demo Account: $10,000
-
-### Next Steps (Day 2)
-- Learn Python control flow (if/else, loops)
-- Download and analyze real market data
-- Study aerodynamics fundamentals
-- Write more trading functions
+### Next Steps (Day 3)
+- Learn NumPy arrays
+- Create backtesting framework
+- Test strategies on real data
 
 ---
 
-**Started:** 3/06/2026
-**Challenge Length:** 6 months
-**Goal:** Funded trader status + CFD expertise
+**Stats:**
+- Python Scripts: 5
+- Functions Created: 6
+- Real Market Data: Downloaded ✓
+- Win Rate Calculation: Working ✓
+
+Started: Day 1 | Current: Day 2/30
