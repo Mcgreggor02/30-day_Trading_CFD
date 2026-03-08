@@ -1,41 +1,46 @@
 # 30-Day Trading + CFD Challenge
 
-## Progress: DAY 2 ✅
+## Progress: DAY 3 ✅
 
-### Scripts Created
+### Scripts Created (Updated)
 - `hello_trading.py` - Calculate percentage returns
-- `trading_signals.py` - If/else logic for BUY/SELL/HOLD signals
-- `calculate_returns.py` - Loop through trades, calculate win rate
-- `download_data.py` - Download real SPY data from Yahoo Finance
-- `analyze_data.py` - Pandas analysis: moving averages, daily returns
+- `trading_signals.py` - If/else logic for signals
+- `calculate_returns.py` - Loop through trades
+- `download_data.py` - Download real market data
+- `analyze_data.py` - Pandas data analysis
+- `numpy_basics.py` - NumPy arrays and math
+- `calculate_volatility.py` - Risk measurement (std dev, Sharpe ratio)
+- `calculate_momentum.py` - Trend identification (10-day momentum)
+- `complete_trading_system.py` - Combined risk + trend signals
 
-### What I Learned (Day 2)
-- **If/else statements** - Decision-making in code
-- **Loops** - Process multiple items efficiently
-- **yfinance library** - Download real market data
-- **Pandas library** - Organize and analyze data
-- **Moving averages** - Identify trends in price
-- **Daily returns** - Calculate day-to-day price changes
+### What I Learned (Day 3)
+- **NumPy** - Fast mathematical operations on arrays
+- **Volatility** - How much prices bounce (risk measure)
+- **Sharpe Ratio** - Returns per unit of risk
+- **Momentum** - Rate of price change (trend indicator)
+- **Risk Management** - Why managing risk matters MORE than chasing returns
 
 ### Key Insight
-"Great traders understand their data before making decisions. I'm building tools to analyze market patterns."
+"Great traders don't just find trends. They manage RISK while trading trends. My system now considers both momentum AND volatility."
 
-### Code Quality
-- All scripts are tested and working
-- Each function has documentation
-- Comments explain the logic
+### Technical Skills
+- NumPy for efficient calculations
+- Real volatility measurement from market data
+- Technical indicators (momentum)
+- Multi-factor trading signals
 
-### Next Steps (Day 3)
-- Learn NumPy arrays
-- Create backtesting framework
-- Test strategies on real data
+### Next Steps (Day 4)
+- Learn backtesting framework (Backtrader)
+- Test strategies on historical data
+- Calculate win rates and Sharpe ratios
 
 ---
 
 **Stats:**
-- Python Scripts: 5
-- Functions Created: 6
-- Real Market Data: Downloaded ✓
-- Win Rate Calculation: Working ✓
+- Python Scripts: 9
+- Functions Created: 10+
+- Real Market Data: Downloaded & analyzed ✓
+- Technical Indicators: 3 (returns, volatility, momentum)
+- Complete Trading System: Built ✓
 
-Started: Day 1 | Current: Day 2/30
+**Progress: Day 1 → Day 2 → Day 3/30**
