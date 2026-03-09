@@ -1,46 +1,50 @@
 # 30-Day Trading + CFD Challenge
 
-## Progress: DAY 3 ✅
+## Progress: DAY 4 ✅
 
 ### Scripts Created (Updated)
-- `hello_trading.py` - Calculate percentage returns
-- `trading_signals.py` - If/else logic for signals
-- `calculate_returns.py` - Loop through trades
-- `download_data.py` - Download real market data
-- `analyze_data.py` - Pandas data analysis
-- `numpy_basics.py` - NumPy arrays and math
-- `calculate_volatility.py` - Risk measurement (std dev, Sharpe ratio)
-- `calculate_momentum.py` - Trend identification (10-day momentum)
-- `complete_trading_system.py` - Combined risk + trend signals
+- `simple_sma_backtest.py` - First backtest with SMA(10)x(30) strategy
+- `improved_sma_backtest.py` - SMA strategy with volatility risk filter
+- `analyze_backtest_results.py` - Professional backtest metrics analysis
 
-### What I Learned (Day 3)
-- **NumPy** - Fast mathematical operations on arrays
-- **Volatility** - How much prices bounce (risk measure)
-- **Sharpe Ratio** - Returns per unit of risk
-- **Momentum** - Rate of price change (trend indicator)
-- **Risk Management** - Why managing risk matters MORE than chasing returns
+### What I Learned (Day 4)
+- **Backtrader** - Professional backtesting library
+- **Strategy Development** - How to code trading strategies
+- **Risk Filtering** - Only trade when volatility is acceptable
+- **Backtest Metrics** - Win rate, profit factor, average win/loss
+- **Real Performance** - Tested SMA strategy on 2023 SPY data
+
+### Key Results
+- First Backtest: +0.62% return on 2023 data
+- Total Trades: 4
+- Strategy: SMA(10) crosses SMA(30)
+- Next Step: Test on more data, improve win rate
 
 ### Key Insight
-"Great traders don't just find trends. They manage RISK while trading trends. My system now considers both momentum AND volatility."
+"Backtesting shows what WOULD have happened. Now I need to test if my strategy works on different market conditions. This is how I'll find my edge."
 
-### Technical Skills
-- NumPy for efficient calculations
-- Real volatility measurement from market data
-- Technical indicators (momentum)
-- Multi-factor trading signals
+### Technical Progress
+- NumPy: ✅ (fast math)
+- Pandas: ✅ (data analysis)
+- yfinance: ✅ (real data)
+- Backtrader: ✅ (backtesting)
+- Strategy Development: ✅
 
-### Next Steps (Day 4)
-- Learn backtesting framework (Backtrader)
-- Test strategies on historical data
-- Calculate win rates and Sharpe ratios
+### Next Steps (Day 5)
+- Test multiple strategies (mean reversion, momentum)
+- Optimize SMA parameters
+- Calculate Sharpe ratio for each strategy
+- Find best performing strategy
 
 ---
 
 **Stats:**
-- Python Scripts: 9
-- Functions Created: 10+
-- Real Market Data: Downloaded & analyzed ✓
-- Technical Indicators: 3 (returns, volatility, momentum)
-- Complete Trading System: Built ✓
+- Python Scripts: 12+
+- Trading Strategies: 2 (SMA base, SMA with risk filter)
+- Backtests Run: 3+
+- First Strategy Return: +0.62%
+- Professional Metrics: Implemented ✓
 
-**Progress: Day 1 → Day 2 → Day 3/30**
+**Progress: Day 1 → Day 2 → Day 3 → Day 4/30**
+
+**You've gone from zero to backtesting in 4 days!**
