@@ -3,9 +3,7 @@
 ## Progress: DAY 8 ✅
 
 ### Trading Scripts (Updated)
-- `improved_trading_strategy.py` - Too protective version (0 trades)
 - `balanced_trading_strategy.py` - Smart balanced filters ✓
-- `day8_final_comparison.py` - Strategy comparison report
 
 ### CFD Scripts (Updated)
 - `aerodynamic_polar_curve.py` - Full angle of attack sweep
@@ -115,7 +113,6 @@ This mirrors trading:
 - **Optimal Design Points Identified:** 2 (trading: balanced SMA | CFD: +5° angle)
 - **Days Complete:** 8/30 (27%)
 
-### MILESTONE: Over 1/4 of the way! 🎯
 
 **Combined Progress Summary:**
 - **Trading:** Built 3 strategies, identified optimal approach for bear markets
